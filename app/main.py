@@ -1,7 +1,12 @@
 from flask import Flask, jsonify
 import os
+from app.config import config
 
 app = Flask(__name__)
+
+# Load configuration
+env = os.getenv('ENVIRONMENT', 'development')
+app.config.from_object(config[env])
 
 # Get environment (dev, staging, prod)
 ENV = os.getenv('ENVIRONMENT', 'development')
