@@ -41,6 +41,7 @@ def info():
 
 if __name__ == '__main__':
     # Run on different ports based on environment
+    # Adding this comment to test the things
     port = int(os.getenv('PORT', 5000))
     debug = ENV == 'development'
     
