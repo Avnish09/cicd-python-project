@@ -22,9 +22,10 @@ python app/main.py
 ```
 
 ### Access Application
-- Home: http://localhost:5000/
-- Health: http://localhost:5000/health
-- Info: http://localhost:5000/api/info
+After running the application, visit these URLs in your browser:
+- **Home**: http://localhost:5000/ - Welcome message and app status
+- **Health Check**: http://localhost:5000/health - System health status
+- **API Info**: http://localhost:5000/api/info - Available endpoints
 
 ## Environments
 - **Development**: Port 5000
