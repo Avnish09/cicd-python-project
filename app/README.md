@@ -1,4 +1,4 @@
-# CI/CD Python Flask Application - Enterprise Edition
+# CI/CD Python Flask Application - Professional Edition
 
 A demonstration project for learning CI/CD pipeline with Git, GitHub, Jenkins, and AWS.
 
