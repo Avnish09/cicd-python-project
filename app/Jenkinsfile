@@ -1,11 +1,11 @@
 pipeline {
     agent any
-    
+
     stages {
         stage('Checkout') {
             steps {
                 echo '========================================='
-                echo 'STAGE 1: CHECKING OUT CODE FROM GITHUB'
+                echo 'STAGE 1: CHECKING OUT CODE FROM GITHUB1'
                 echo '========================================='
                 checkout scm
                 echo '✅ Code checked out successfully!'
